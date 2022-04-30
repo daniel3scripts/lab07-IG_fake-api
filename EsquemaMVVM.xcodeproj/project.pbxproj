@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		86114CCC2813331400D03B56 /* ProjectMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86114CCC2813331400D03B56 /* EsquemaMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EsquemaMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86114CCF2813331400D03B56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86114CD12813331400D03B56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		86114CD32813331400D03B56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,12 +52,12 @@
 		86114CCD2813331400D03B56 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				86114CCC2813331400D03B56 /* ProjectMVVM.app */,
+				86114CCC2813331400D03B56 /* EsquemaMVVM */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		86114CCE2813331400D03B56 /* ProjectMVVM */ = {
+		86114CCE2813331400D03B56 /* EsquemaMVVM */ = {
 			isa = PBXGroup;
 			children = (
 				86114CE72813334500D03B56 /* Onboarding */,
@@ -70,7 +70,7 @@
 				86114CD82813331500D03B56 /* Assets.xcassets */,
 				86114CDD2813331500D03B56 /* Info.plist */,
 			);
-			path = ProjectMVVM;
+			path = EsquemaMVVM;
 			sourceTree = "<group>";
 		};
 		86114CE32813331D00D03B56 /* Model */ = {
@@ -116,9 +116,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		86114CCB2813331400D03B56 /* ProjectMVVM */ = {
+		86114CCB2813331400D03B56 /* EsquemaMVVM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86114CE02813331500D03B56 /* Build configuration list for PBXNativeTarget "ProjectMVVM" */;
+			buildConfigurationList = 86114CE02813331500D03B56 /* Build configuration list for PBXNativeTarget "EsquemaMVVM" */;
 			buildPhases = (
 				86114CC82813331400D03B56 /* Sources */,
 				86114CC92813331400D03B56 /* Frameworks */,
@@ -128,9 +128,9 @@
 			);
 			dependencies = (
 			);
-			name = ProjectMVVM;
-			productName = ProjectMVVM;
-			productReference = 86114CCC2813331400D03B56 /* ProjectMVVM.app */;
+			name = EsquemaMVVM;
+			productName = EsquemaMVVM;
+			productReference = 86114CCC2813331400D03B56 /* EsquemaMVVM.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -148,7 +148,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 86114CC72813331300D03B56 /* Build configuration list for PBXProject "ProjectMVVM" */;
+			buildConfigurationList = 86114CC72813331300D03B56 /* Build configuration list for PBXProject "EsquemaMVVM" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -161,7 +161,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				86114CCB2813331400D03B56 /* ProjectMVVM */,
+				86114CCB2813331400D03B56 /* EsquemaMVVM */,
 			);
 		};
 /* End PBXProject section */
@@ -337,7 +337,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DLG2TN82XY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ProjectMVVM/Info.plist;
+				INFOPLIST_FILE = EsquemaMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -348,7 +348,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.ProjectMVVM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.EsquemaMVVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -365,7 +365,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DLG2TN82XY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ProjectMVVM/Info.plist;
+				INFOPLIST_FILE = EsquemaMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -376,7 +376,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.ProjectMVVM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.EsquemaMVVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -387,7 +387,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		86114CC72813331300D03B56 /* Build configuration list for PBXProject "ProjectMVVM" */ = {
+		86114CC72813331300D03B56 /* Build configuration list for PBXProject "EsquemaMVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86114CDE2813331500D03B56 /* Debug */,
@@ -396,7 +396,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86114CE02813331500D03B56 /* Build configuration list for PBXNativeTarget "ProjectMVVM" */ = {
+		86114CE02813331500D03B56 /* Build configuration list for PBXNativeTarget "EsquemaMVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86114CE12813331500D03B56 /* Debug */,
